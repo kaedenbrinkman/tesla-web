@@ -1,6 +1,5 @@
 <?php
-//include 'client.php';
-echo $_SERVER["DOCUMENT_ROOT"];
+include '/app/web/src/assets/client.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

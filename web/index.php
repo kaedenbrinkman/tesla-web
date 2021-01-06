@@ -1,5 +1,5 @@
 <?php
-include 'src/assets/head.php';
+include '/app/web/src/assets/head.php';
 ?>
 <div class="container">
     <h1>Hello, world!</h1>
@@ -7,5 +7,5 @@ include 'src/assets/head.php';
 
 
 <?php
-include 'src/assets/foot.php';
+include '/app/web/src/assets/foot.php';
 ?>

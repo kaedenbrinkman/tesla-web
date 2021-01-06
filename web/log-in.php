@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     }
     header('Location: /');
 } else {
-    include 'src/assets/head.php';
+    include '/app/web/src/assets/head.php';
 ?>
 
 
@@ -27,6 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
 <?php
-    include 'src/assets/foot.php';
+    include '/app/web/src/assets/foot.php';
 }
 ?>
