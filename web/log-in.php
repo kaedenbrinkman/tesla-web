@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
     <form class="form-signin" method="post" action="/log-in.php">
-        <img class="mb-4" src="https://tesla.com/favicon.ico" alt="" width="72" height="72">
+        <img class="mb-4" src="/src/img/logo.png" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required="" autofocus="">
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         <input type="password" id="inputPassword" name="psw" class="form-control" placeholder="Password" required="">
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">Privact</p>
+        <p class="mt-5 mb-3 text-muted">Privacy</p>
     </form>
 
 
