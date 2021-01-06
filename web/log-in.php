@@ -1,6 +1,7 @@
 <?php
-include 'src/assets/client.php';
-if ($_SERVER['request_method'] === "POST") {
+
+if ($_SERVER['REQUEST_METHOD'] === "POST") {
+    include 'src/assets/client.php';
     if (isset($_POST['psw']) && isset($_POST['email'])) {
         $_SESSION['access_token'] = $tesla->getAccessToken($_POST['email'], $_POST['psw']);
     }
