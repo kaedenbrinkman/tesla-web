@@ -5,7 +5,11 @@ if ($_SERVER['request_method'] === "POST") {
         $_SESSION['access_token'] = $tesla->getAccessToken($_POST['email'], $_POST['psw']);
     }
     header('Location: /');
-} else { ?>
+} else {
+    include 'src/assets/head.php';
+?>
+
+
 
     <form class="form-signin" method="post" action="/log-in.php">
         <img class="mb-4" src="https://tesla.com/favicon.ico" alt="" width="72" height="72">
@@ -22,4 +26,6 @@ if ($_SERVER['request_method'] === "POST") {
 
 
 <?php
+    include 'src/assets/foot.php';
 }
+?>
