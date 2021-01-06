@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+
+Options +Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteRule "/\.|^\.(?!well-known/)" - [F]
+</IfModule>

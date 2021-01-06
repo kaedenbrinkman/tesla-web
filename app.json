@@ -1,0 +1,6 @@
+{
+  "name": "Tesla",
+  "description": "A PHP web app interface for the Tesla API",
+  "repository": "https://github.com/kaedenbrinkman/tesla-web",
+  "addons": []
+}
