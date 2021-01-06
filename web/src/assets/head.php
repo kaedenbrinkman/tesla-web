@@ -1,5 +1,5 @@
 <?php
-//include 'client.php';
+include 'client.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
